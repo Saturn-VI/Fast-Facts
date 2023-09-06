@@ -82,7 +82,20 @@ topics = [
         "Parts of Human Brain",
         "Circulatory System",
         "Digestive System",
-        "Respiratory System"
+        "Respiratory System",
+
+        # Cells/Genetics
+        "Cells",
+        "Genetics",
+        "Cell Structures",
+        "Cell Structures in Plant Cells",
+        "Cell Structures in Animal Cells",
+        "Cell Structures in Eukaryotic Cells",
+        "Types of Cells in Human Body",
+        "Cell Division",
+        "DNA",
+        "Nucleotides",
+        "Heredity"
 
         ]
 topic_weights = [
@@ -149,8 +162,21 @@ topic_weights = [
         3, # Parts of the Human Brain
         1, # Circulatory System
         1, # Digestive System
-        1 # Respiratory System
+        1, # Respiratory System
         
+        # Cells/Genetics
+        2, # Cells
+        9, # Genetics
+        19, # Cell Structures
+        1, # Cell Structures in Plant Cells
+        1, # Cell Structures in Animal Cells
+        1, # Cell Structures in Eukaryotic Cells
+        1, # Types of Cells in Human Bodies
+        2, # Cell Division
+        2, # DNA
+        1, # Nucleotides
+        1 # Heredity
+
         ]
 
 def random_topics():
