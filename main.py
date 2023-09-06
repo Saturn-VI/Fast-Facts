@@ -95,7 +95,75 @@ topics = [
         "Cell Division",
         "DNA",
         "Nucleotides",
-        "Heredity"
+        "Heredity",
+
+        # Biochemistry
+        "Enzymes",
+        "Hormones",
+        "Neurotransmitters",
+        "Amino Acids",
+
+        # Names
+        #this will be fun!!!
+        "Animals",
+        "Bacteria",
+        "Pathogens",
+        "Viruses",
+        "Protists",
+        "Trees",
+        "Deciduous",
+        "North American Trees",
+        "Reptiles",
+        "Reptile Orders",
+        "Dinosaurs",
+        "North American Dinosaurs",
+        "Amphibians",
+        "Amphibian Orders",
+        "Plants",
+        "Plant Phyla",
+        "Flowers",
+        "Flowering Plants",
+        "Edible Herbs",
+        "Submerged Aquatic Vegitation",
+        "Birds",
+        "Birds of Prey",
+        "State Birds",
+        "Insects",
+        "Insect Anatomy",
+        "Spiders",
+        "Mammals",
+        "Marsupials",
+        "Marine",
+        "Whales",
+        "Primates",
+        "Dog Breeds",
+        "African Mammals",
+        "North American Mammals",
+        "Michigan Mammals",
+        "Fish",
+        "Fungi",
+        "Mushrooms",
+        "Fruit",
+        "Stone Fruit",
+        "Vegetables",
+        "Root Vegitables",
+        "Invasive Species",
+        "Invasive Species of Michigan",
+        "Aquatic Plants",
+        "Poisonous or Venomous Animals",
+        "Vertebras",
+        "Land Vertebras",
+        "Invertebras",
+        "Endagered Species",
+        "Unicellular Organisms",
+        "Animals with Antlers",
+        "Domesticated Animals",
+        "Prehistoric Aquatic Animals",
+        "Coral",
+        "Aquatic",
+        "Nocturnal Animals",
+        "Exctinct Animals",
+        "Marine Animals"
 
         ]
 topic_weights = [
@@ -175,7 +243,13 @@ topic_weights = [
         2, # Cell Division
         2, # DNA
         1, # Nucleotides
-        1 # Heredity
+        1, # Heredity
+
+        # Biochemistry
+        1, # Enzymes
+        1, # Hormones
+        1, # Neurotransmitters
+        1 # Amino Acids
 
         ]
 
