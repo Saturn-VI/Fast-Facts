@@ -20,7 +20,10 @@ def random_letters():
 # Topic info from https://docs.google.com/spreadsheets/d/1gZIRPB9HAy40yGv7lJ9B4XWgIovPfImd1WzFet4s1tA/edit
 
 topics = [
+        # General
         "Science",
+
+        # Scientists
         "Scientists",
         "Female Scientists",
         "16th-19th Century Scientists",
@@ -34,6 +37,8 @@ topics = [
         "Aviators",
         "Inventors",
         "Philosophers",
+
+        # Units/Dimensions
         "Units",
         "Dimensions",
         "Metric Units",
@@ -41,14 +46,20 @@ topics = [
         "SI Units",
         "Time",
         "Eponymous Constants",
+
+        # Laws/Theorems/Theories/Principles
         "Laws/Theorems/Principles",
         "Eponymous Laws/Theorems/Principles",
+
+        # Branches of Science
         "Branches of Science",
         "Ending in -iology",
         "Biology",
         "Medicine",
         "Physics",
         "Science Careers",
+
+        # Other
         "Lab Equipment",
         "Microscope Parts",
         "Scientific Instruments",
@@ -62,7 +73,11 @@ topics = [
         "Greek Letters"
         ]
 topic_weights = [
+
+        # General
         1, # Science
+
+        # Scientists
         29, # Scientists
         4, # Female Scientists
         1, # 16th-19th Century Scientists
@@ -76,6 +91,8 @@ topic_weights = [
         1, # Aviators
         1, # Inventors
         1, # Philosophers
+
+        # Units/Dimensions
         22, # Units
         1, # Dimensions
         1, # Metric Units
@@ -83,7 +100,11 @@ topic_weights = [
         3, # SI Units
         1, # Time
         1, # Eponymous Constants
+
+        # Laws/Theorems/Theories/Principles
         12, # Laws/Theorems/Principles
+
+        # Branches of Science
         2, # Eponymous Laws/Theorems/Principles
         15, # Branches of science
         2, # Ending in -iology
@@ -91,6 +112,8 @@ topic_weights = [
         1, # Medicine
         1, # Physics
         2, # Science Careers
+        
+        # Other
         8, # Lab Equipment
         6, # Microscope Parts
         9, # Scientific Instruments
