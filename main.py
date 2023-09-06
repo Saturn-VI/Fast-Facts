@@ -151,9 +151,9 @@ topics = [
         "Invasive Species of Michigan",
         "Aquatic Plants",
         "Poisonous or Venomous Animals",
-        "Vertebras",
-        "Land Vertebras",
-        "Invertebras",
+        "Vertebrates",
+        "Land Vertebrates",
+        "Invertebrates",
         "Endagered Species",
         "Unicellular Organisms",
         "Animals with Antlers",
@@ -163,7 +163,41 @@ topics = [
         "Aquatic",
         "Nocturnal Animals",
         "Exctinct Animals",
-        "Marine Animals"
+        "Marine Animals",
+        "Taxonomy",
+        "Evolution",
+        "Ecology",
+        "Biomes",
+        "Terrrestrial Biomes",
+        "Ecosystems",
+        "Abiotic Factors",
+        "Biogeochemical Cycles",
+        "Water Cycle",
+        "Soil Types",
+        "Pollution",
+        "Population Factors in Size",
+        "Symbiotic Relationships",
+        "Food Webs",
+        "Trophic Levels",
+        "Botany",
+        "Plant Parts",
+        "Parts of Flowers",
+        "Epidemiology",
+        "Diseases/Disorders",
+        "Human Diseases",
+        "Infectious Diseases",
+        "Cancers",
+        "Foodboorne Diseases",
+        "Genetic Disorders",
+        "Viral Diseases",
+        "Neurological Diseases/Disorders",
+        "Immunology",
+        "Found in Human Blood",
+        "Fingerprinting",
+        "Nutrition",
+        "Items Listed on FDA Nutrition Facts Label",
+        "Medical",
+        "Zoology"
 
         ]
 topic_weights = [
@@ -249,7 +283,113 @@ topic_weights = [
         1, # Enzymes
         1, # Hormones
         1, # Neurotransmitters
-        1 # Amino Acids
+        1, # Amino Acids
+
+        # Names
+        1, # Animals
+        5, # Bacteria
+        1, # Pathogens
+        1, # Viruses
+        1, # Protists
+        7, # Trees
+        1, # Deciduous Trees
+        1, # Trees of North America
+        8, # Reptiles
+        1, # Reptile Orders
+        12, # Dinosaurs
+        1, # North American Dinosaurs
+        5, # Amphibians
+        1, # Amphibian Orders
+        3, # Plants
+        1, # Plant Phyla
+        3, # Flowers
+        1, # Flowering Plants
+        1, # Edible Herbs
+        1, # Submerged Aquatic Vegetation
+        4, # Birds
+        1, # Birds of Prey
+        1, # State Birds
+        5, # Insects
+        1, # Insect Anatomy
+        1, # Spiders
+        9, # Mammals
+        2, # Marsupials
+        1, # Marine
+        1, # Whales
+        2, # Primates
+        1, # Dog Breeds
+        1, # Mammals of Africa
+        1, # Mammals of North America
+        1, # Mammals of Michigan
+        3, # Fish
+        1, # Fungi
+        1, # Mushrooms
+        1, # Fruits
+        1, # Stone Fruitt
+        2, # Vegetables
+        1, # Root Vegetables
+        3, # Invasive Species
+        1, # Invasive Species of Michigan
+        1, # Invasive Aquatic Plants
+        1, # Poisonous or Venomous Animals
+        3, # Vertebrates
+        1, # Land Vertebrates
+        2, # Invertebrates
+        4, # Endagered Species
+        1, # Unicellular Organisms
+        1, # Animals with Antlers
+        1, # Domesticated Animals
+        1, # Prehistoric Aquatic Animals
+        1, # Coral
+        2, # Aquatic
+        1, # Nocturnal Animals
+        1, # Extinct Animals
+        3, # Marine
+
+
+        3, # Taxonomy
+
+        3, # Evolution
+
+        # Ecology
+        8, # Ecology
+        9, # Biomes
+        1, # Terrestrial Biomes
+        2, # Ecosystems
+        2, # Abiotic Factors
+        1, # Biogeochemical Cycles
+        2, # Water Cycle 
+        1, # Soil Types
+        2, # Pollution
+        1, # Population Factors in Size
+        1, # Symbiotic Relationships
+        1, # Food Webs
+        1, # Trophic Levels
+
+        # Botany
+        1, # Botany
+        3, # Plant Parts
+        1, # Parts of Flowers
+
+        # Epidemiology
+        1, # Epidemiology
+        11, # Diseases/Disorders
+        2, # Human Diseases
+        1, # Infectious Diseases
+        2, # Cancers
+        2, # Foodborne Diseases
+        3, # Genetic Disorders
+        1, # Viral Diseases
+        1, # Neurological Disorders
+        1, # Immunology
+
+        # Other (Biology)
+        1, # Found in Human Blood
+        1, # Fingerprinting
+        1, # Nutrition
+        1, # Items Listed on FDA Nutrition Facts Label
+        1, # Medical
+        1 # Zoology
 
         ]
 
