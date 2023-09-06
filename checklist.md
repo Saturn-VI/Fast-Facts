@@ -1,7 +1,7 @@
 ## To-Do
 
 * [ ] Generate random categories
-* [ ] Generate random letters
+* [X] Generate random letters
 * [ ] Formatting
 * [ ] Input
 
