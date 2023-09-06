@@ -70,7 +70,20 @@ topics = [
         "Scioly Events (Past/Present)",
         "Math",
         "Latin Prefixes",
-        "Greek Letters"
+        "Greek Letters",
+
+        #Anatomy
+        "Human Anatomy",
+        "Human Bones",
+        "Human Muscles",
+        "Organs",
+        "Organ Systems",
+        "Parts of Human Eye",
+        "Parts of Human Brain",
+        "Circulatory System",
+        "Digestive System",
+        "Respiratory System"
+
         ]
 topic_weights = [
 
@@ -124,8 +137,24 @@ topic_weights = [
         1, # Scioly Events (Past/Present)
         2, # Math
         1, # Latin Prefixes
-        1 # Greek Letters
+        1, # Greek Letters
+
+        # Anatomy
+        8, # Human Anatomy
+        19, # Human Bones
+        6, # Human Muscles
+        11, # Organs
+        3, # Organ Systems
+        4, # Parts of the Human Eye
+        3, # Parts of the Human Brain
+        1, # Circulatory System
+        1, # Digestive System
+        1 # Respiratory System
+        
         ]
 
 def random_topics():
-    random.choices(topics, weights=topic_weights, k=5)
+    choices = random.choices(topics, weights=topic_weights, k=5)
+    return choices
+
+print(random_topics())
