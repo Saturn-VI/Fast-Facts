@@ -20,8 +20,22 @@ def random_letters():
 
 # Topic info from https://docs.google.com/spreadsheets/d/1gZIRPB9HAy40yGv7lJ9B4XWgIovPfImd1WzFet4s1tA/edit
 
-def random_topics():
-    choices = random.choices(topics, weights=topic_weights, k=5)
+def random_topics(true_random=False):
+    if true_random:
+        choices = random.sample(topics, 5)
+    else:
+        # time to steal the random_letter logic
+        choices = []
+        choosing = True
+        words_chosen = 0
+        while choosing:
+            temp_word_choice = random.choices(topics, weights=topic_weights, k=5)
+            if temp_word_choice not in choices:
+                choices.append(temp_word_choice)
+                words_chosen += 1
+            if words_chosen == 5:
+                choosing = False
     return choices
 
-print(random_topics())
+print(random_topics(true_random=True))
+print(random_letters())
