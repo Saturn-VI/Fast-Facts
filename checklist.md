@@ -7,5 +7,4 @@
 
 ### Nice-to-haves
 
-* [ ] Markov-Based RNG
 * [ ] Tkinter/QT interface
