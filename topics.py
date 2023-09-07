@@ -260,7 +260,22 @@ topics = [
 
         # Oceanography
         "Abyssal Plains and Ocean Basins",
-        "Major Surface Currents"
+        "Major Surface Currents",
+
+        # Space
+        "Celestial Bodies",
+        "Stars",
+        "Stellar Evolution",
+        "Deep Space Objects",
+        "Galaxies",
+        "Constellations",
+        "Comets",
+        "Solar System",
+        "Planets",
+        "Dwarf Planets",
+        "Moons",
+        "Saturn's Moons",
+        "NASA Missions"
 
         ]
 topic_weights = [
@@ -484,7 +499,6 @@ topic_weights = [
         1, # Gases
         1, # Type of Chemical Reaction
 
-
         # Earth and Space
         4, # Geology
         2, # Oceanography
@@ -522,6 +536,36 @@ topic_weights = [
 
         # Oceanography
         1, # Abyssal Plains and Ocean Basins
-        1 # Major Surface Currents
+        1, # Major Surface Currents
+
+        # Space
+        2, # Celestial Bodies
+        11, # Stars
+        1, # Stellar Evolution
+        1, # Deep Space Objects
+        2, # Galaxies
+        20, # Constellations
+        1, # Comets
+        4, # Solar System
+        5, # Planets
+        1, # Dwarf Planets
+        11, # Moons
+        2, # Saturn's Moons
+        4, # NASA Missions
+
+        # Atmosphere
+        1,
+        2,
+        1,
+        8,
+        4,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        3
+
 
         ]
