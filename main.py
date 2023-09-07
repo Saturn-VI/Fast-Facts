@@ -37,5 +37,7 @@ def random_topics(true_random=False):
                 choosing = False
     return choices
 
+
+
 print(random_topics(true_random=True))
 print(random_letters())

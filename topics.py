@@ -179,7 +179,27 @@ topics = [
         "Nutrition",
         "Items Listed on FDA Nutrition Facts Label",
         "Medical",
-        "Zoology"
+        "Zoology",
+        "Chemistry",
+        "Elements",
+        "Metals",
+        "Semimetals",
+        "Nonmetals",
+        "Elements Discovered After 1900",
+        "Elements Named After Places",
+        "Manmade Elements",
+        "Noble Gases",
+        "Compounds",
+        "Organic Compounds",
+        "Compound Acids",
+        "Matter",
+        "States of Matter",
+        "Phase Changes",
+        "Properties of Matter",
+        "Chem Lab",
+        "Chem Lab Equipment",
+        "Gases",
+        "Types of Chemical Reactions"
 
         ]
 topic_weights = [
@@ -371,6 +391,37 @@ topic_weights = [
         1, # Nutrition
         1, # Items Listed on FDA Nutrition Facts Label
         1, # Medical
-        1 # Zoology
+        1, # Zoology
+
+        # Chemistry
+        6, # Chemistry
+
+        # Elements
+        37, # Elements
+        7, # Metals
+        1, # Semimetals
+        2, # Nonmetals
+        1, # Elements Discovered After 1900
+        1, # Elements Named After Places
+        1, # Manmade Elements
+        2, # Noble Gases
+
+        # Compounds
+        1, # Compounds
+        1, # Organic Compounds
+        1, # Compound Acids
+
+        # Matter
+        2, # Matter
+        3, # States of Matter
+        2, # Phase Changes
+        1, # Properties of Matter
+
+        # Other (Chemistry)
+        1, # Chem Lab
+        2, # Chem Lab Equipment
+        1, # Gases
+        1 # Type of Chemical Reaction
+
 
         ]
