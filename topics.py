@@ -221,7 +221,46 @@ topics = [
         "Chem Lab",
         "Chem Lab Equipment",
         "Gases",
-        "Types of Chemical Reactions"
+        "Types of Chemical Reactions",
+
+        # Earth and Space
+        "Geology",
+        "Oceanography",
+        "Meteorology",
+        "Astronomy",
+
+        # Rocks and Minerals/Fossils
+        "Minerals",
+        "Native Element Minerals",
+        "Gemstones",
+        "Precious Metals",
+        "Rocks",
+        "Igneous Rocks",
+        "Metamorphic Rocks",
+        "Sedimentary Rocks",
+        "Fossils",
+
+        # Tectonics
+        "Tectonics",
+        "Tectonic Plate Names",
+        "Ancient Supercontinents",
+        "Tectionic Layers",
+        "Earthquakes",
+
+        # Landforms/Surface Features
+        "Landforms/Surface Features",
+        "20 Longest Mountain Ranges", # this one sucks lmao
+        "US Mountains",
+        "Volcanoes",
+        "Active Volcanoes",
+        "Deserts",
+        "Coastal Landforms",
+        "Glaciers in the United States",
+        "Bodies of Water",
+
+        # Oceanography
+        "Abyssal Plains and Ocean Basins",
+        "Major Surface Currents"
 
         ]
 topic_weights = [
@@ -443,7 +482,46 @@ topic_weights = [
         1, # Chem Lab
         2, # Chem Lab Equipment
         1, # Gases
-        1 # Type of Chemical Reaction
+        1, # Type of Chemical Reaction
 
+
+        # Earth and Space
+        4, # Geology
+        2, # Oceanography
+        15, # Meteorology
+        6, # Astronomy
+
+        # Rocks and Minerals/Fossils
+        27, # Minerals
+        1, # Native Element Minerals
+        2, # Gemstones
+        1, # Precious Metals
+        10, # Rocks
+        1, # Igneous Rocks
+        1, # Metamorphic Rocks
+        2, # Sedimentary Rocks
+        1, # Fossils
+
+        # Tectonics
+        6, # Tectonics
+        6, # Tectonic Plate Names
+        1, # Ancient Supercontinents
+        1, # Tectionic Layers
+        1, # Earthquakes
+
+        # Landforms/Surface Features
+        15, # Landforms/Surface Features
+        1, # 20 Longest Mountain Ranges # this one sucks lmao
+        1, # US Mountains
+        1, # Volcanoes
+        1, # Active Volcanoes
+        1, # Deserts
+        1, # Coastal Landforms
+        1, # Glaciers in the United States
+        1, # Bodies of Water
+
+        # Oceanography
+        1, # Abyssal Plains and Ocean Basins
+        1 # Major Surface Currents
 
         ]
