@@ -307,9 +307,64 @@ topics = [
 
         # Other (earth/space)
         "Archaeology",
-        "US National Parks"
+        "US National Parks",
+
+        # General (physics/engineering)
+        "Physics/Engineering",
+
+        # Kinematics
+        "Kinematics",
+
+        # Dynamics
+        "Dynamics",
+        "Types of Forces",
+
+        # Electricity and Magnetism
+        "Electricity",
+        "Circuits",
+
+        # Thermodynamics
+        "Thermodynamics",
+        "Energy"
+        "Types of Energy",
+        "Types of Energy Sources",
+
+        # Wave Physics
+        "Wave Physics",
+        "Types of Waves",
+        "Optics",
+        "EM Spectrum",
+        "Sound",
+
+        # Particle Physics
+        "Particle Physics",
+        "Sub-atomic Particles",
+        "Elementary Particles",
+        "Atomic Models",
+
+        # Other (physics/engineering)
+
+        # Aerospace/Aviation
+        "Aerospace/Aviation",
+        "Parts of an Airplane",
+        "Named Aircraft",
+
+        # Computers
+        "Computers",
+        "Computer Parts",
+        "Programming Languages",
+
+        # Engineering
+        "Engineering",
+        "Engineering Design Terms",
+        "Machines"
+
+
 
         ]
+
+
+
 topic_weights = [
 
         # General
@@ -615,7 +670,55 @@ topic_weights = [
 
         # Other (earth/space)
         1, # Archaeology
-        2 # US National Parks
+        2, # US National Parks
+
+        # General (physics/engineering)
+        5, # Physics/Engineering
+        
+        3, # Kinematics
+
+        2, # Dynamics
+        2, # Types of Forces
+
+        3, # Electricity
+        2, # Circuits
+
+        1, # Thermodynamics
+        1, # Energy
+        5, # Types of Energy
+        4, # Types of Energy Sources
+
+        # Wave Physics
+        5, # Wave Physics
+        1, # Types of Waves
+        1, # Optics
+        3, # EM Spectrum
+        4, # Sound
+
+        # Particle Physics
+        1, # Particle Physics
+        1, # Sub-atomic Particles
+        1, # Elementary Particles
+        1, # Atomic Models
+
+        # Other (physics/engineering)
+
+        # Aerospace/Aviation
+        4, # Aerospace/Aviation
+        2, # Parts of an Airplane
+        1, # Named Aircraft
+
+        # Computers
+        3, # Computers
+        1, # Computer Parts
+        3, # Programming Languages
+        
+        # Engineering
+        2, # Engineering
+        1, # Engineering Design Terms
+        1 # Machines
+
+
 
         ]
 
