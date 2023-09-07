@@ -275,7 +275,39 @@ topics = [
         "Dwarf Planets",
         "Moons",
         "Saturn's Moons",
-        "NASA Missions"
+        "NASA Missions",
+
+        # Atmosphere
+        "Climate",
+        "Climate Change",
+        "Climate Zones",
+        "Natural Disasters",
+        "Severe Weather",
+        "Hurricanes",
+        "Retired Hurricane Names",
+        "Atmospheric Layers",
+        "Atmospheric Winds/Air Currents",
+        "Weather Instruments",
+        "Weather Forecasting",
+        "Weather Phenomena",
+
+        # Geologic Time
+        "Geologic Time",
+        "Eon Names",
+        "Era Names (not ts)",
+        "Period Names",
+
+        # Maps/Geography
+        "Maps/Geography",
+        "Countries in Eastern Hemisphere",
+        "Capital Cities of Countries",
+        "Geographic Features",
+        "Topographic Maps",
+        "Topographic Map Symbols",
+
+        # Other (earth/space)
+        "Archaeology",
+        "US National Parks"
 
         ]
 topic_weights = [
@@ -554,18 +586,35 @@ topic_weights = [
         4, # NASA Missions
 
         # Atmosphere
-        1,
-        2,
-        1,
-        8,
-        4,
-        1,
-        1,
-        3,
-        1,
-        1,
-        1,
-        3
+        1, # Climate
+        2, # Climate Change
+        1, # Climate Zones
+        8, # Natural Disasters
+        4, # Severe Weather
+        1, # Hurricanes
+        1, # Retired Hurricane Names
+        3, # Atmospheric Layers
+        1, # Atmospheric Winds/Air Currents
+        1, # Weather Instruments
+        1, # Weather Forecasting
+        3, # Weather Phenomena
 
+        # Geologic Time
+        3, # Geologic Time
+        2, # Eon Names
+        3, # Era Names (not ts)
+        7, # Period Names
+
+        # Maps/Geography
+        2, # Maps/Geography
+        1, # Countries in Eastern Hemisphere
+        1, # Capital Cities of Countries
+        1, # Geographic Features
+        1, # Topographic Maps
+        1, # Topographic Map Symbols
+
+        # Other (earth/space)
+        1, # Archaeology
+        2 # US National Parks
 
         ]
