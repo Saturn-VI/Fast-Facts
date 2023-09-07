@@ -146,8 +146,14 @@ topics = [
         "Nocturnal Animals",
         "Exctinct Animals",
         "Marine Animals",
+
+        # Taxonomy
         "Taxonomy",
+
+        # Evolution
         "Evolution",
+
+        # Ecology
         "Ecology",
         "Biomes",
         "Terrrestrial Biomes",
@@ -161,9 +167,13 @@ topics = [
         "Symbiotic Relationships",
         "Food Webs",
         "Trophic Levels",
+
+        # Botany
         "Botany",
         "Plant Parts",
         "Parts of Flowers",
+
+        # Epidemiology
         "Epidemiology",
         "Diseases/Disorders",
         "Human Diseases",
@@ -174,13 +184,19 @@ topics = [
         "Viral Diseases",
         "Neurological Diseases/Disorders",
         "Immunology",
+
+        # Other (biology)
         "Found in Human Blood",
         "Fingerprinting",
         "Nutrition",
         "Items Listed on FDA Nutrition Facts Label",
         "Medical",
         "Zoology",
+
+        # Chemistry
         "Chemistry",
+
+        # Elements
         "Elements",
         "Metals",
         "Semimetals",
@@ -189,13 +205,19 @@ topics = [
         "Elements Named After Places",
         "Manmade Elements",
         "Noble Gases",
+
+        # Compounds
         "Compounds",
         "Organic Compounds",
         "Compound Acids",
+
+        # Matter
         "Matter",
         "States of Matter",
         "Phase Changes",
         "Properties of Matter",
+
+        # Other (chemistry)
         "Chem Lab",
         "Chem Lab Equipment",
         "Gases",
