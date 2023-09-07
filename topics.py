@@ -1,7 +1,10 @@
 
 # Topic info from https://docs.google.com/spreadsheets/d/1gZIRPB9HAy40yGv7lJ9B4XWgIovPfImd1WzFet4s1tA/edit
 
+
+
 topics = [
+        
         # General
         "Science",
 
@@ -359,11 +362,7 @@ topics = [
         "Engineering Design Terms",
         "Machines"
 
-
-
         ]
-
-
 
 topic_weights = [
 
@@ -718,7 +717,4 @@ topic_weights = [
         1, # Engineering Design Terms
         1 # Machines
 
-
-
         ]
-
