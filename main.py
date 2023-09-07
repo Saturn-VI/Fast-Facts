@@ -1,5 +1,5 @@
 import random
-from topics import topics, topic_weights
+from topics import topics, topic_weights, Topic, topic_set, topics_to_set
 
 letters = 'ABCDEFGJIJKLMNOPQRSTUVWXYZ'
 

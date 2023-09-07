@@ -3,6 +3,7 @@
 
 
 
+
 topics = [
         
         # General
@@ -718,3 +719,34 @@ topic_weights = [
         1 # Machines
 
         ]
+
+
+
+class Topic:
+    def __init__(self, topic, weight):
+        self.topic = topic
+        self.weight = weight
+        
+    def __str__(self):
+        return f"Topic: {self.topic}\nWeight: {self.weight}"
+
+
+
+topic_set = set()
+
+def topics_to_set():
+    for i in range(len(topics)):
+        topic_set.add(Topic(topics[i], topic_weights[i]))
+
+    for topic in topic_set:
+        print(topic)
+
+
+
+
+if __name__ == "__main__": # Testing class
+    thing = Topic("Astronauts", 12)
+    print(thing)
+
+    topics_to_set()
+    print(len(topic_set))
