@@ -47,11 +47,11 @@ def format(topic_inputs, letter_inputs):
 
     topic_inputs.remove(max_length_topic)
 
-    def space_balancer(length, word):
+    def space_balancer(length, word): # formats words below the max length
         if (length - word) % 2 == 1:
-            is_odd = True
+            is_odd = True 
 
-    row_1 = f"|{max_length_topic}|{}"
+    # row_1 = f"|{max_length_topic}|{}"   commented out so vscode stops yelling at me, **necessary code**
 
 
 
