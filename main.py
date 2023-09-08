@@ -38,6 +38,23 @@ def random_topics(true_random=False):
     return choices
 
 
+def format(topic_inputs, letter_inputs):
+    max_topic_length = 0
+    for input in topic_inputs:
+        if len(input) > max_topic_length:
+            max_topic_length = len(input)
+            max_length_topic = input
+
+    topic_inputs.remove(max_length_topic)
+
+    def space_balancer(length, word):
+        if (length - word) % 2 == 1:
+            is_odd = True
+
+    row_1 = f"|{max_length_topic}|{}"
+
+
+
 
 print(random_topics(true_random=True))
 print(random_letters())
