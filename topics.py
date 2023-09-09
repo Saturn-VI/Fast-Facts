@@ -140,7 +140,7 @@ topics = [
         "Vertebrates",
         "Land Vertebrates",
         "Invertebrates",
-        "Endagered Species",
+        "Endangered Species",
         "Unicellular Organisms",
         "Animals with Antlers",
         "Domesticated Animals",
@@ -500,7 +500,7 @@ topic_weights = [
         3, # Vertebrates
         1, # Land Vertebrates
         2, # Invertebrates
-        4, # Endagered Species
+        4, # Endangered Species
         1, # Unicellular Organisms
         1, # Animals with Antlers
         1, # Domesticated Animals

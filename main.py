@@ -37,6 +37,15 @@ def random_topics(true_random=False):
                 choosing = False
     return choices
 
+def space_balancer(length, word): # formats words below the max length
+    if (length - len(word)) % 2 == 1:
+        space_left = " " * int((length-len(word))/2+0.5)
+        space_right = " " * int((length-len(word))/2-0.5)
+    else:
+        space_left = " " * int((length-len(word))/2)
+        space_right = " " * int((length-len(word))/2)
+
+    return(f"{space_left}{word}{space_right}")
 
 def format(topic_inputs, letter_inputs):
     max_topic_length = 0
@@ -47,14 +56,21 @@ def format(topic_inputs, letter_inputs):
 
     topic_inputs.remove(max_length_topic)
 
-    def space_balancer(length, word): # formats words below the max length
-        if (length - word) % 2 == 1:
-            is_odd = True 
+    
 
-    # row_1 = f"|{max_length_topic}|{}"   commented out so vscode stops yelling at me, **necessary code**
+    topic_row = f"| |{max_length_topic}|{space_balancer(len(max_length_topic), topic_inputs[0])}|{space_balancer(len(max_length_topic), topic_inputs[1])}|{space_balancer(len(max_length_topic), topic_inputs[2])}|{space_balancer(len(max_length_topic), topic_inputs[3])}|"
+    row_1 = f"|{letter_inputs[0]}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|"
+    row_2 = f"|{letter_inputs[1]}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|"
+    row_3 = f"|{letter_inputs[2]}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|"
+    row_4 = f"|{letter_inputs[3]}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|"
+    row_5 = f"|{letter_inputs[4]}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|{' ' * len(max_length_topic)}|"
+
+    spacer_row = "=" * len(topic_row)
+
+    return [spacer_row, topic_row, spacer_row, row_1, spacer_row, row_2, spacer_row, row_3 ,spacer_row, row_4, spacer_row, row_5, spacer_row]
+
+print(space_balancer(9, 'word'))
 
 
-
-
-print(random_topics(true_random=True))
-print(random_letters())
+for row in format(random_topics(true_random=True), random_letters()):
+    print(f"{row}\n")
