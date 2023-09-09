@@ -72,4 +72,4 @@ def format(topic_inputs, letter_inputs):
 
 
 for row in format(random_topics(true_random=True), random_letters()):
-    print(f"{row}\n")
+    print(f"{row}")
