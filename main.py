@@ -69,7 +69,6 @@ def format(topic_inputs, letter_inputs):
 
     return [spacer_row, topic_row, spacer_row, row_1, spacer_row, row_2, spacer_row, row_3 ,spacer_row, row_4, spacer_row, row_5, spacer_row]
 
-print(space_balancer(9, 'word'))
 
 
 for row in format(random_topics(true_random=True), random_letters()):
