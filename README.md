@@ -12,7 +12,7 @@ Contributions appreciated.
 
 * [X] Generate random categories
 * [X] Generate random letters
-* [XX] Formatting
+* [X] Formatting
 * [ ] Input
 
 ### Nice-to-haves
