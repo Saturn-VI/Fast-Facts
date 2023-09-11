@@ -1,7 +1,10 @@
 import random
 from topics import topics, topic_weights, Topic, topic_set, topics_to_set
+from flask import Flask, render_template
 
 letters = 'ABCDEFGJIJKLMNOPQRSTUVWXYZ'
+
+app = Flask(__name__, static_folder='static')
 
 def random_letters():
     return_letters = [] # defining stuff
@@ -73,3 +76,20 @@ def format(topic_inputs, letter_inputs):
 
 for row in format(random_topics(true_random=True), random_letters()):
     print(f"{row}")
+
+
+
+
+# Server stuff
+
+@app.route("/")
+def index():
+    pass
+
+
+@app.route("/api", methods=["GET"])
+def api():
+    pass
+
+
+app.run(host="127.0.0.1", port="5500")
