@@ -84,7 +84,7 @@ for row in format(random_topics(true_random=True), random_letters()):
 
 @app.route("/")
 def index():
-    pass
+    return render_template('index.html')
 
 
 @app.route("/api", methods=["GET"])
