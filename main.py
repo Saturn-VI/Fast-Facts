@@ -89,7 +89,7 @@ def index():
 
 @app.route("/api", methods=["GET"])
 def api():
-    pass
+    return {'topics': random_topics(true_random=True), 'letters':random_letters()}
 
 
 app.run(host="127.0.0.1", port="5500")
