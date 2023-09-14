@@ -12,6 +12,27 @@ html {
     background-color: #DEDEDE;
     height: 30px;
   }
+
+  button {
+    padding: 25px;
+    background-color: #878787;
+    margin: 35px;
+    border-radius: 24%;
+    border: None;
+    color: #232323;
+    transition: 0.25s;
+    box-shadow: 0 4px rgb(221, 40, 40);
+  }
+
+  button:hover {
+    background-color: #ABABAB;
+  }
+
+  button:active {
+    background-color: rgb(189, 52, 52);
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
+  }
   
   table {
     border-collapse: collapse;

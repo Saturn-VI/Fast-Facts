@@ -329,7 +329,7 @@ topics = [
 
         # Thermodynamics
         "Thermodynamics",
-        "Energy"
+        "Energy",
         "Types of Energy",
         "Types of Energy Sources",
 
