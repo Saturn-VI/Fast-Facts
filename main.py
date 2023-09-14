@@ -74,8 +74,8 @@ def format(topic_inputs, letter_inputs):
 
 
 
-for row in format(random_topics(true_random=True), random_letters()):
-    print(f"{row}")
+# for row in format(random_topics(true_random=True), random_letters()):
+#     print(f"{row}")
 
 
 
@@ -87,7 +87,7 @@ def index():
     return render_template('index.html')
 
 
-@app.route("/api", methods=["GET"])
+@app.route("/api")
 def api():
     return {'topics': random_topics(true_random=True), 'letters':random_letters()}
 
